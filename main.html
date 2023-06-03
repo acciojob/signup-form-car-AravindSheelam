@@ -16,11 +16,12 @@
 		<input type="text" id="name" required><br>
 
 		<label for="gender">Gender</label>
-		<input type="radio" name="gender" required>Male
-		<input type="radio" name="gender" required>Female<br>
+		<input type="radio" name="gender_m" required>Male
+		<input type="radio" name="gender_f" required>Female<br>
 
-		<label for="car brands">Car Brands</label>
-		<select id="car brands" required>
+		<label for="cars">Choose your car</label>
+		<select id="cars" required>
+			<option value="" disabled selected hidden>--Please choose an option--</option>
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
@@ -30,16 +31,16 @@
 		<input type="number" id="age" required><br>
 
 		<label for="dob">DOB</label>
-		<input type="password" id="password" required><br>
+		<input type="password" id="dob" required><br>
 
-		<label for="phone number">Phone Number</label>
-		<input type="tel" id="phone number" required><br>
+		<label for="tel">Phone number</label>
+		<input type="tel" id="tel" required><br>
 
 		<label for="password">Password</label>
 		<input type="password" id="password" required><br>
 
-		<label for="checkbox">Checkbox</label>
-		<input type="checkbox" required><br>
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" id="tos" required><br>
 
 		<button type="button">submit</button>
 	</form>
